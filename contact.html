@@ -20,7 +20,7 @@
     <title>Contact</title>
   </head>
   <body>
-    <section class="section-container">
+    <section class="section-container contact">
       <div class="container">
         <button type="button" class="hamburger-menu active">
           <i class="fas fa-hamburger"></i>
@@ -32,12 +32,33 @@
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li><a href="about.html">About Me</a></li>
+            <li><a href="experience.html">Experience</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="contact.html">Contact Me</a></li>
           </ul>
         </nav>
-        <h1 class="content-title">Contact</h1>
+        <h1 class="contact-title title">Hello<span>.</span></h1>
+        <div class="contact-information-container">
+          <div class="contact-information">
+            <i class="fas fa-phone-square-alt"></i>
+            <p>0403 992 503</p>
+          </div>
+          <div class="contact-information">
+            <i class="fas fa-envelope-square"></i>
+            <p>tiakoenig1994@gmail.com</p>
+          </div>
+        </div>
+        <form class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" name="name" />
+          <label for="phone">Phone</label>
+          <input type="number" name="phone" />
+          <label for="email">Email</label>
+          <input type="email" name="email" />
+          <label for="message">Send me some words!</label>
+          <textarea name="message" rows="4"></textarea>
+          <input type="submit" />
+        </form>
       </div>
     </section>
     <script src="script.js"></script>

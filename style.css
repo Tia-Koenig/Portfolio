@@ -1,3 +1,8 @@
+:root {
+  --font-family: 'Poppins', sans-serif;
+  --primary-pink: rgb(223, 42, 102);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +10,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family);
 }
 
 .section-container {
@@ -16,7 +21,7 @@ body {
     rgba(14, 12, 46, 1) 69%,
     rgba(0, 1, 37, 1) 100%
   );
-  background-image: url('/images/nightlakeimage.jpg');
+  /* background-image: url('/images/nightlakeimage.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -120,17 +125,8 @@ body {
   margin-bottom: 24px;
 }
 
-.content-title {
-  display: flex;
-  margin-bottom: 8px;
-  font-size: 32px;
+.home-title {
   color: #fff;
-  justify-content: center;
-}
-
-.content-subtitle {
-  margin-bottom: 16px;
-  font-size: 24px;
 }
 
 .content-description {
@@ -138,4 +134,96 @@ body {
   line-height: 24px;
   text-align: center;
   color: #fff;
+}
+
+/* Global Classes */
+
+.title {
+  margin-bottom: 16px;
+  font-size: 32px;
+}
+
+.sub-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+/* Contact page  */
+
+.contact-title {
+  color: #fff;
+  margin-top: 48px;
+  text-align: center;
+}
+
+.contact-title span {
+  color: var(--primary-pink);
+}
+
+.contact-information-container {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-information {
+  color: #fff;
+  display: flex;
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+
+.contact-information i {
+  font-size: 16px;
+  margin-right: 16px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.contact-form label {
+  margin-bottom: 12px;
+  font-size: 12px;
+}
+
+.contact-form input {
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  margin-bottom: 12px;
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+
+.contact-form input:focus {
+  outline: none;
+}
+
+.contact-form textarea {
+  outline: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 12px;
+  font-family: var(--font-family);
+  padding: 8px;
+  /* border-bottom: 1px solid #fff; */
+  margin-bottom: 24px;
+}
+
+.contact-form input[type='submit'] {
+  border-bottom: none;
+  font-size: 12px;
+  background: var(--primary-pink);
+  width: 150px;
+  padding: 12px 0;
+  color: #000;
+  align-self: center;
+  font-family: var(--font-family);
+  font-weight: bolder;
+  border-radius: 50px;
 }
