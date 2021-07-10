@@ -227,3 +227,27 @@ body {
   font-weight: bolder;
   border-radius: 50px;
 }
+
+/* Experience Page */
+
+.content-title {
+  color: #fff;
+  margin-top: 36px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.content-title span {
+  color: var(--primary-pink);
+}
+
+.coder-academy {
+  color: #fff;
+  margin-top: 36px;
+}
+
+.coder-academy h1 {
+  margin-bottom: ;
+}
+
+/* Experience Page */
