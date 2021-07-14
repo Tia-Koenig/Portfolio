@@ -1,0 +1,164 @@
+:root {
+  --font-family: 'Poppins', sans-serif;
+  --primary-pink: rgb(223, 42, 102);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+.section-container {
+  background: rgb(71, 19, 74);
+  background: linear-gradient(
+    0deg,
+    rgba(71, 19, 74, 1) 0%,
+    rgba(14, 12, 46, 1) 69%,
+    rgba(0, 1, 37, 1) 100%
+  );
+  background-image: url('/images/stars.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+}
+
+/* navbar styling */
+.hamburger-menu,
+.hamburger-menu-close {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  z-index: 10;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: calc(-100% - 24px);
+  background: rgba(0, 0, 0, 0.85);
+  width: 100%;
+  height: 100vh;
+  transition: left 1s cubic-bezier(1, 0, 0, 1);
+}
+
+.navbar-open {
+  left: 0;
+}
+
+.navbar ul {
+  display: inline-block;
+  max-height: 100%;
+}
+
+.navbar ul li {
+  margin-bottom: 5px;
+  text-align: center;
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 32px;
+}
+
+.social-links {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  top: 0;
+  right: 0;
+}
+
+.social-links-icon {
+  list-style: none;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.social-links-icon a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.home-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.tia-photo {
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+  border-radius: 50%;
+  object-position: top;
+  margin-bottom: 24px;
+}
+
+.home-title {
+  color: #fff;
+}
+
+.content-description {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Global Classes */
+
+.title {
+  margin-bottom: 16px;
+  font-size: 32px;
+}
+
+.sub-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.h1 span {
+  color: var(--primary-pink);
+}
+
+.content-title {
+  color: #fff;
+  margin-top: 36px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.content-title span {
+  color: var(--primary-pink);
+}

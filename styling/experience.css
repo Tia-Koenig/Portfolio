@@ -1,0 +1,15 @@
+.coder-academy {
+  color: #fff;
+  margin-top: 36px;
+  text-align: left;
+}
+
+.coder-academy h1 {
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--primary-pink);
+  display: inline-block;
+}
+
+.coder-academy span {
+  color: var(--primary-pink);
+}

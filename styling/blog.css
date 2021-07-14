@@ -1,0 +1,11 @@
+.blog-content {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.blog-content img {
+  height: 200px;
+  border-radius: 16px;
+}
