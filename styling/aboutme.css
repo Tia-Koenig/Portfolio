@@ -16,3 +16,13 @@
   color: #fff;
   margin-top: 16px;
 }
+
+.aboutme-titles {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.aboutme-titles span {
+  color: var(--primary-pink);
+}
