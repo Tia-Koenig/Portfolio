@@ -106,6 +106,12 @@ body {
   text-decoration: none;
 }
 
+.aboutme-spotifylink {
+  margin-top: 16px;
+  font-size: 24px;
+  color: #fff;
+}
+
 .home-content {
   width: 100%;
   display: flex;
@@ -161,4 +167,40 @@ body {
 
 .content-title span {
   color: var(--primary-pink);
+}
+
+a:link {
+  color: #fff;
+}
+
+/* visited link */
+a:visited {
+  color: #fff;
+}
+
+/* mouse over link */
+a:hover {
+  color: #fff;
+}
+
+/* selected link */
+a:active {
+  color: var(--primary-pink);
+}
+
+/* link decoration */
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
