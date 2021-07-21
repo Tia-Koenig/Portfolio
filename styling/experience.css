@@ -2,14 +2,112 @@
   color: #fff;
   margin-top: 36px;
   text-align: left;
+  font-size: 50px;
 }
 
-.experience-content h1 {
+/* .experience-content h1 {
   margin-bottom: 8px;
-  border-bottom: 1px solid var(--primary-pink);
-  display: inline-block;
-}
+} */
 
 .experience-content span {
   color: var(--primary-pink);
+}
+
+.rails {
+  height: 20px;
+  width: 20px;
+}
+
+.experience-grid-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50px;
+  grid-auto-rows: 75px;
+}
+
+.experience-levels {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 25px;
+  grid-column: 2 / 5;
+}
+
+.level-title {
+  font-size: 14px;
+  text-align: center;
+}
+
+.skill-title {
+  font-size: 14px;
+  margin: auto 0;
+}
+
+svg {
+  fill: white;
+  height: 50px;
+  width: 50px;
+}
+
+svg g g > path {
+  fill: red;
+  stroke: black;
+  stroke-width: 4px;
+}
+
+.svgstroke {
+  fill: white;
+}
+
+/* Headings */
+
+.html {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.css {
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.javascript {
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 1;
+}
+
+.pokemon {
+  grid-column: 1 / span 1;
+  grid-row: 5 / span 1;
+}
+
+.js-icon {
+  grid-column: 2 / span 1;
+  grid-row: 4 / span 1;
+}
+
+.pokeball-icon {
+  grid-column: 2 / span 1;
+  grid-row: 5 / span 1;
+}
+
+.pokeball-icon2 {
+  grid-column: 3 / span 1;
+  grid-row: 5 / span 1;
+}
+
+.pokeball-icon3 {
+  grid-column: 4 / span 1;
+  grid-row: 5 / span 1;
+}
+
+img.pokeball-icon {
+  height: 50px;
+  width: 50px;
+  margin: auto;
+}
+
+.experience-content i,
+svg {
+  margin: auto;
 }
