@@ -1,0 +1,17 @@
+.main-text {
+  color: hotpink;
+  text-align: center;
+}
+
+.game-button {
+  border-bottom: none;
+  font-size: 12px;
+  background: var(--primary-pink);
+  width: 150px;
+  padding: 12px 0;
+  color: #000;
+  align-self: center;
+  font-family: var(--font-family);
+  font-weight: bolder;
+  border-radius: 50px;
+}

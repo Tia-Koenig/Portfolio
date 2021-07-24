@@ -8,4 +8,12 @@
 .blog-content img {
   height: 200px;
   border-radius: 16px;
+  margin-bottom: 8px;
+  margin-top: 36px;
+}
+
+.blog-title {
+  align-self: center;
+  font-size: 18px;
+  margin-bottom: 16px;
 }

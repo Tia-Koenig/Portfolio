@@ -122,6 +122,10 @@ body {
   color: #fff;
 }
 
+.home-content span {
+  color: var(--primary-pink);
+}
+
 .tia-photo {
   height: 250px;
   width: 250px;
@@ -140,6 +144,16 @@ body {
   line-height: 24px;
   text-align: center;
   color: #fff;
+}
+
+.home-contact-link {
+  font-size: 24px;
+  align-self: center;
+  margin-top: 100px;
+}
+
+.home-contact-link span {
+  color: var(--primary-pink);
 }
 
 /* Global Classes */

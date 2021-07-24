@@ -1,0 +1,15 @@
+.education-title {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 36px;
+}
+
+.section-container span {
+  color: var(--primary-pink);
+}
+
+.coder-academy {
+  color: #fff;
+  margin-top: 36px;
+}

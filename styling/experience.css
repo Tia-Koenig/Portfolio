@@ -14,8 +14,8 @@
 }
 
 .rails {
-  height: 20px;
-  width: 20px;
+  height: 50px;
+  width: 50px;
 }
 
 .experience-grid-container {
@@ -81,12 +81,42 @@ svg g g > path {
   grid-row: 5 / span 1;
 }
 
+.ruby {
+  grid-column: 1 / span 1;
+  grid-row: 6 / span 1;
+}
+
+.rubyonrails {
+  grid-column: 1 / span 1;
+  grid-row: 7 / span 1;
+}
+
+.python {
+  grid-column: 1 / span 1;
+  grid-row: 8 / span 1;
+}
+
+.python-icon {
+  grid-column: 2 / span 1;
+  grid-row: 8 / span 1;
+}
+
+svg.rails {
+  grid-column: 2 / span 1;
+  grid-row: 7 / span 1;
+}
+
+.gem {
+  grid-column: 2 / span 1;
+  grid-row: 6 / span 1;
+}
+
 .js-icon {
   grid-column: 2 / span 1;
   grid-row: 4 / span 1;
 }
 
-.pokeball-icon {
+.pokeball-icon1 {
   grid-column: 2 / span 1;
   grid-row: 5 / span 1;
 }
@@ -101,13 +131,48 @@ svg g g > path {
   grid-row: 5 / span 1;
 }
 
-img.pokeball-icon {
+img.pokeball {
   height: 50px;
   width: 50px;
   margin: auto;
+  grid-row: 5 / span 1;
 }
+
+/* .pokeballs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: 2 / 5;
+}
+
+.pokeball {
+  animation: stagger 1000ms ease-in-out;
+}
+.pokeball:nth-child(1) {
+  animation-delay: 333ms;
+}
+.pokeball:nth-child(2) {
+  animation-delay: 666ms;
+}
+.pokeball:nth-child(3) {
+  animation-delay: 999ms;
+} */
 
 .experience-content i,
 svg {
   margin: auto;
 }
+
+/* @keyframes stagger {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 10%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+} */
